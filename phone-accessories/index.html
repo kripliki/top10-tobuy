@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top Products</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f9f9f9; margin: 0; padding: 0; }
+    header { background: #222; color: white; padding: 20px; text-align: center; }
+    .container { max-width: 800px; margin: auto; padding: 20px; }
+    ul { list-style: none; padding: 0; }
+    li {
+      background: white;
+      margin-bottom: 15px;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+    a {
+      display: flex;
+      text-decoration: none;
+      padding: 15px;
+      align-items: center;
+      color: inherit;
+    }
+    .image-wrapper {
+      width: 150px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 20px;
+    }
+    .image-wrapper img {
+      max-height: 200px;
+      width: auto;
+      height: auto;
+      border-radius: 4px;
+    }
+    .text {
+      flex: 1;
+    }
+    h3 {
+      margin: 0 0 10px;
+      font-size: 1.2em;
+    }
+    p {
+      margin: 0;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Top Products</h1>
+  </header>
+  <div class="container">
+    <ul>
+      <li>
+        <a href="https://www.amazon.com/dp/B09G9FPWZC" target="_blank">
+          <div class="image-wrapper">
+            <img src="https://m.media-amazon.com/images/I/71Zc7t0t6eL._AC_SL1500_.jpg" alt="Ailun Screen Protector for iPhone">
+          </div>
+          <div class="text">
+            <h3>Ailun Screen Protector for iPhone</h3>
+            <p>3 Pack Tempered Glass, Case Friendly, Dynamic Island Compatible.</p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.amazon.com/dp/B08L5WHFT9" target="_blank">
+          <div class="image-wrapper">
+            <img src="https://m.media-amazon.com/images/I/71Zc7t0t6eL._AC_SL1500_.jpg" alt="INIU Portable Charger">
+          </div>
+          <div class="text">
+            <h3>INIU Portable Charger</h3>
+            <p>Slimmest 10000mAh Power Bank, USB C in&out, High-Speed Charging.</p>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>
