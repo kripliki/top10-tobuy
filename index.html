@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
   <title>Top10 ToBuy – Category Hub</title>
   <style>
     body {
@@ -11,12 +16,14 @@
       margin: 0;
       padding: 0;
     }
+
     header {
       background: #222;
       color: white;
       padding: 20px;
       text-align: center;
     }
+
     .container {
       display: flex;
       flex-wrap: wrap;
@@ -25,24 +32,29 @@
       padding: 20px;
       gap: 20px;
     }
+
     .column {
       flex: 1 1 45%;
       display: flex;
       flex-direction: column;
       gap: 20px;
     }
+
     .category {
       background: white;
       padding: 20px;
       border-radius: 8px;
-      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     }
+
     .category h2 {
       margin-top: 0;
     }
+
     .category p {
       margin: 10px 0;
     }
+
     .category a {
       display: inline-block;
       padding: 10px 15px;
@@ -51,19 +63,23 @@
       text-decoration: none;
       border-radius: 4px;
     }
+
     .category a:hover {
       background: #005bb5;
     }
+
     @media (max-width: 768px) {
       .container {
         flex-direction: column;
       }
+
       .column {
         flex: 1 1 100%;
       }
     }
   </style>
 </head>
+
 <body>
   <header>
     <h1>Top10 ToBuy</h1>
@@ -71,29 +87,90 @@
   </header>
   <div class="container">
     <div class="column">
-      <div class="category"><h2>🎮 Gaming Accessories</h2><p>Top 10 products in Gaming Accessories.</p><a href="./gaming-accessories/">View Top 10</a></div>
-      <div class="category"><h2>🏠 Smart Home</h2><p>Top 10 products in Smart Home.</p><a href="./smart-home/">View Top 10</a></div>
-      <div class="category"><h2>💼 Office Gear</h2><p>Top 10 products in Office Gear.</p><a href="./office-gear/">View Top 10</a></div>
-      <div class="category"><h2>🍳 Kitchen Tech</h2><p>Top 10 products in Kitchen Tech.</p><a href="./kitchen-tech/">View Top 10</a></div>
-      <div class="category"><h2>✈️ Travel Gadgets</h2><p>Top 10 products in Travel Gadgets.</p><a href="./travel-gadgets/">View Top 10</a></div>
-      <div class="category"><h2>🏋️ Fitness Accessories</h2><p>Top 10 products in Fitness Accessories.</p><a href="./fitness-accessories/">View Top 10</a></div>
-      <div class="category"><h2>📱 Phone Accessories</h2><p>Top 10 products in Phone Accessories.</p><a href="./phone-accessories/">View Top 10</a></div>
-      <div class="category"><h2>💻 Laptop Accessories</h2><p>Top 10 products in Laptop Accessories.</p><a href="./laptop-accessories/">View Top 10</a></div>
-      <div class="category"><h2>📷 Photography Gear</h2><p>Top 10 products in Photography Gear.</p><a href="./photography-gear/">View Top 10</a></div>
-      <div class="category"><h2>🚗 Car Gadgets</h2><p>Top 10 products in Car Gadgets.</p><a href="./car-gadgets/">View Top 10</a></div>
+      <div class="category">
+        <h2>🎮 Gaming Accessories</h2>
+        <p>Top 10 products in Gaming Accessories.</p><a href="./gaming-accessories/">View Top 10</a>
+      </div>
+      <div class="category">
+        <h2>🏠 Smart Home</h2>
+        <p>Top 10 products in Smart Home.</p><a href="./smart-home/">View Top 10</a>
+      </div>
+      <div class="category">
+        <h2>💼 Office Gear</h2>
+        <p>Top 10 products in Office Gear.</p><a href="./office-gear/">View Top 10</a>
+      </div>
+      <div class="category">
+        <h2>🍳 Kitchen Tech</h2>
+        <p>Top 10 products in Kitchen Tech.</p><a href="./kitchen-tech/">View Top 10</a>
+      </div>
+      <div class="category">
+        <h2>✈️ Travel Gadgets</h2>
+        <p>Top 10 products in Travel Gadgets.</p><a href="./travel-gadgets/">View Top 10</a>
+      </div>
+      <div class="category">
+        <h2>🏋️ Fitness Accessories</h2>
+        <p>Top 10 products in Fitness Accessories.</p><a href="./fitness-accessories/">View Top 10</a>
+      </div>
+      <div class="category">
+        <h2>📱 Phone Accessories</h2>
+        <p>Top 10 products in Phone Accessories.</p><a href="./phone-accessories/">View Top 10</a>
+      </div>
+      <div class="category">
+        <h2>💻 Laptop Accessories</h2>
+        <p>Top 10 products in Laptop Accessories.</p><a href="./laptop-accessories/">View Top 10</a>
+      </div>
+      <div class="category">
+        <h2>📷 Photography Gear</h2>
+        <p>Top 10 products in Photography Gear.</p><a href="./photography-gear/">View Top 10</a>
+      </div>
+      <div class="category">
+        <h2>🚗 Car Gadgets</h2>
+        <p>Top 10 products in Car Gadgets.</p><a href="./car-gadgets/">View Top 10</a>
+      </div>
     </div>
     <div class="column">
-      <div class="category"><h2>🐾 Pet Tech</h2><p>Top 10 products in Pet Tech.</p><a href="./pet-tech/">View Top 10</a></div>
-      <div class="category"><h2>🧹 Home Cleaning</h2><p>Top 10 products in Home Cleaning.</p><a href="./home-cleaning/">View Top 10</a></div>
-      <div class="category"><h2>⌚ Wearable Tech</h2><p>Top 10 products in Wearable Tech.</p><a href="./wearable-tech/">View Top 10</a></div>
-      <div class="category"><h2>🏕️ Outdoor Gear</h2><p>Top 10 products in Outdoor Gear.</p><a href="./outdoor-gear/">View Top 10</a></div>
-      <div class="category"><h2>🔥 Camping Gadgets</h2><p>Top 10 products in Camping Gadgets.</p><a href="./camping-gadgets/">View Top 10</a></div>
-      <div class="category"><h2>👶 Baby Tech</h2><p>Top 10 products in Baby Tech.</p><a href="./baby-tech/">View Top 10</a></div>
-      <div class="category"><h2>💄 Beauty Tech</h2><p>Top 10 products in Beauty Tech.</p><a href="./beauty-tech/">View Top 10</a></div>
-      <div class="category"><h2>🧠 Productivity Tools</h2><p>Top 10 products in Productivity Tools.</p><a href="./productivity-tools/">View Top 10</a></div>
-      <div class="category"><h2>📺 Streaming Accessories</h2><p>Top 10 products in Streaming Accessories.</p><a href="./streaming-accessories/">View Top 10</a></div>
-      <div class="category"><h2>🩺 Health Monitors</h2><p>Top 10 products in Health Monitors.</p><a href="./health-monitors/">View Top 10</a></div>
+      <div class="category">
+        <h2>🐾 Pet Tech</h2>
+        <p>Top 10 products in Pet Tech.</p><a href="./pet-tech/">View Top 10</a>
+      </div>
+      <div class="category">
+        <h2>🧹 Home Cleaning</h2>
+        <p>Top 10 products in Home Cleaning.</p><a href="./home-cleaning/">View Top 10</a>
+      </div>
+      <div class="category">
+        <h2>⌚ Wearable Tech</h2>
+        <p>Top 10 products in Wearable Tech.</p><a href="./wearable-tech/">View Top 10</a>
+      </div>
+      <div class="category">
+        <h2>🏕️ Outdoor Gear</h2>
+        <p>Top 10 products in Outdoor Gear.</p><a href="./outdoor-gear/">View Top 10</a>
+      </div>
+      <div class="category">
+        <h2>🔥 Camping Gadgets</h2>
+        <p>Top 10 products in Camping Gadgets.</p><a href="./camping-gadgets/">View Top 10</a>
+      </div>
+      <div class="category">
+        <h2>👶 Baby Tech</h2>
+        <p>Top 10 products in Baby Tech.</p><a href="./baby-tech/">View Top 10</a>
+      </div>
+      <div class="category">
+        <h2>💄 Beauty Tech</h2>
+        <p>Top 10 products in Beauty Tech.</p><a href="./beauty-tech/">View Top 10</a>
+      </div>
+      <div class="category">
+        <h2>🧠 Productivity Tools</h2>
+        <p>Top 10 products in Productivity Tools.</p><a href="./productivity-tools/">View Top 10</a>
+      </div>
+      <div class="category">
+        <h2>📺 Streaming Accessories</h2>
+        <p>Top 10 products in Streaming Accessories.</p><a href="./streaming-accessories/">View Top 10</a>
+      </div>
+      <div class="category">
+        <h2>🩺 Health Monitors</h2>
+        <p>Top 10 products in Health Monitors.</p><a href="./health-monitors/">View Top 10</a>
+      </div>
     </div>
   </div>
 </body>
+
 </html>
